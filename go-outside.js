@@ -1,11 +1,10 @@
-var temperature = 12;
+function whichSchool (age) {
 
-if (temperature < 1) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temperature < 12) {
-  console.log("Short sleeves won't cut it!");
+if (age < 13) {
+	console.log("Elementary School");
+} else if (age >= 13 && age <= 18) {
+	console.log("Secondary School");
 } else {
-  console.log("Short sleeves are fine.");
+	console.log("Lighthouse Labs");
 }
-
-console.log("Now you're ready to go outside!");
+}
