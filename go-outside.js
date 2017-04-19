@@ -1,10 +1,12 @@
-function whichSchool (age) {
+var raining = true;
+var cold = false;
 
-if (age < 13) {
-	console.log("Elementary School");
-} else if (age >= 13 && age <= 18) {
-	console.log("Secondary School");
-} else {
-	console.log("Lighthouse Labs");
+if (raining) {
+  console.log("Don't forget your umbrella!");
 }
+
+if (cold) {
+  console.log("Make sure you pick out a scarf!");
 }
+
+console.log("Now you're ready to go outside!");
