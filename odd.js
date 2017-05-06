@@ -1,10 +1,8 @@
 function isOdd(num) {
   if (num % 2 === 0)
-  	return false;
+    return false;
   else 
-  	return true;
-
-
+    return true;
 }
 
 console.log("3 is odd: " + isOdd(3));
